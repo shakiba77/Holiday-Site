@@ -10,3 +10,9 @@ body {
     border-top-left-radius:10px;
     border-top-right-radius:10px;
 }
+.card {
+    transition: border 0.5s;
+}
+.card:hover {
+    border:15px #B8CDC4 solid;
+}
