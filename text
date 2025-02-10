@@ -1,0 +1,69 @@
+<nav class="navbar navbar-expand fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="/index.html">
+              <i class="bi bi-calendar-fill"></i>
+              Global Holidays</a
+            >
+            <ul class="navbar-nav nav-tabs">
+              <li class="nav-item active mx-3">
+                <a class="nav-link text-white" href="/index.html"
+                  ><i class="bi bi-house-door-fill"></i> Home</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link text-white" href="/contact.html"
+                  ><i class="bi bi-mailbox2"></i> Contact</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link text-white" href="/about.html"
+                  ><i class="bi bi-info-circle-fill"></i> About</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+
+        <nav class="navbar navbar-expand fixed-top bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="/index.html">
+                <i class="bi bi-calendar-fill"></i>
+                Global Holidays</a
+              >
+              <ul class="navbar-nav nav-tabs">
+                <li class="nav-item ms-5 mx-3">
+                  <a class="nav-link text-white" href="/index.html"
+                    ><i class="bi bi-house-door-fill"></i> Home</a
+                  >
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link text-white" href="/contact.html"
+                    ><i class="bi bi-mailbox2"></i> Contact</a
+                  >
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link text-white" href="/about.html"
+                    ><i class="bi bi-info-circle-fill"></i> About</a
+                  >
+                </li>
+                <li class="nav-item me-5 dropdown">
+                  <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-bookshelf"></i> Holidays
+                  </a>
+                  <ul class="dropdown-menu bg-dark">
+                    <li><a class="dropdown-item text-white" href="/holiday-pages/holiday1.html">New Years</a></li>
+                    <li><a class="dropdown-item text-white" href="/holiday-pages/holiday2.html">Lunar New Years</a></li>
+                    <li><a class="dropdown-item text-white" href="/holiday-pages/holiday3.html">Easter</a></li>
+                    <li><a class="dropdown-item text-white" href="/holiday-pages/holiday4.html">Saint Patrick's Day</a></li>
+                    <li><a class="dropdown-item text-white" href="/holiday-pages/holiday5.html">April Fools</a></li>
+                    <li><a class="dropdown-item text-white" href="/holiday-pages/holiday6.html">Halloween</a></li>
+                    <li><a class="dropdown-item text-white" href="/holiday-pages/holiday7.html">Valentine's Day</a></li>
+                    <li><a class="dropdown-item text-white" href="/holiday-pages/holiday8.html">Christmas</a></li>
+                    <li><a class="dropdown-item text-white" href="/holiday-pages/holiday9.html">Bread Day</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
