@@ -26,107 +26,120 @@
     <div class="container">
       <div class="container-fluid">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand fixed-top bg-dark">
+        <nav class="navbar fixed-top bg-dark">
           <div class="container-fluid">
             <a class="navbar-brand text-white" href="index.html">
               <i class="bi bi-calendar-fill"></i>
               Global Holidays</a
             >
+            <button
+              class="navbar-toggler bg-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <!-- Home, Contact, and About Links  -->
-            <ul class="navbar-nav nav-tabs">
-              <li class="nav-item ms-5 mx-3">
-                <a class="nav-link text-white" href="index.html"
-                  ><i class="bi bi-house-door-fill"></i> Home</a
-                >
-              </li>
-              <li class="nav-item active mx-3">
-                <a class="nav-link text-white" href="contact.html"
-                  ><i class="bi bi-mailbox2"></i> Contact</a
-                >
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link text-white" href="about.html"
-                  ><i class="bi bi-info-circle-fill"></i> About</a
-                >
-              </li>
-              <!-- Dropdown section for Holidays -->
-              <li class="nav-item me-5 dropdown">
-                <a
-                  class="nav-link text-white dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <i class="bi bi-bookshelf"></i> Holidays
-                </a>
-                <ul class="dropdown-menu bg-dark">
-                  <li>
-                    <a
-                      class="dropdown-item text-white"
-                      href="holiday-pages/holiday1.html"
-                      >New Years</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-white"
-                      href="holiday-pages/holiday2.html"
-                      >Lunar New Years</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-white"
-                      href="holiday-pages/holiday3.html"
-                      >Easter</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-white"
-                      href="holiday-pages/holiday4.html"
-                      >Saint Patrick's Day</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-white"
-                      href="holiday-pages/holiday5.html"
-                      >April Fools</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-white"
-                      href="holiday-pages/holiday6.html"
-                      >Halloween</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-white"
-                      href="holiday-pages/holiday7.html"
-                      >Valentine's Day</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-white"
-                      href="holiday-pages/holiday8.html"
-                      >Christmas</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-white"
-                      href="holiday-pages/holiday9.html"
-                      >Bread Day</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav nav-tabs">
+                <li class="nav-item mx-3 mt-2">
+                  <a class="nav-link text-white" href="index.html"
+                    ><i class="bi bi-house-door-fill"></i> Home</a
+                  >
+                </li>
+                <li class="nav-item active mx-3">
+                  <a class="nav-link text-white" href="contact.html"
+                    ><i class="bi bi-mailbox2"></i> Contact</a
+                  >
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link text-white" href="about.html"
+                    ><i class="bi bi-info-circle-fill"></i> About</a
+                  >
+                </li>
+                <!-- Dropdown section for Holidays -->
+                <li class="nav-item dropdown mx-3">
+                  <a
+                    class="nav-link text-white dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="bi bi-bookshelf"></i> Holidays
+                  </a>
+                  <ul class="dropdown-menu bg-dark">
+                    <li>
+                      <a
+                        class="dropdown-item text-white"
+                        href="holiday-pages/holiday1.html"
+                        >New Years</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-white"
+                        href="holiday-pages/holiday2.html"
+                        >Lunar New Years</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-white"
+                        href="holiday-pages/holiday3.html"
+                        >Easter</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-white"
+                        href="holiday-pages/holiday4.html"
+                        >Saint Patrick's Day</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-white"
+                        href="holiday-pages/holiday5.html"
+                        >April Fools</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-white"
+                        href="holiday-pages/holiday6.html"
+                        >Halloween</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-white"
+                        href="holiday-pages/holiday7.html"
+                        >Valentine's Day</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-white"
+                        href="holiday-pages/holiday8.html"
+                        >Christmas</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-white"
+                        href="holiday-pages/holiday9.html"
+                        >Bread Day</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
         <br /><br /><br />
@@ -197,69 +210,59 @@ Your Message Here.</textarea
           <div class="col">
             <br />
             <h2 class="h2 text-center">Our Infomation:</h2>
-            <div class="d-flex justify-content-around">
-              <div class="">
-                <h3 class="h3"><i class="bi bi-mailbox2"></i> Email:</h3>
-                <p>efoster4@schools.nyc.gov</p>
-                <br />
-                <h3 class="h3">
-                  <i class="bi bi-phone-fill"></i> Phone Number:
-                </h3>
-                <p>1-800-948-8488</p>
-                <br />
-              </div>
-              <div class="">
-                <h3 class="h3"><i class="bi bi-map-fill"></i> Address:</h3>
-                <p>Av. Gustave Eiffel, 75007 Paris, France</p>
-                <br />
-                <h3 class="h3"><i class="bi bi-mailbox2"></i> LinkedIn:</h3>
-                <p>
-                  <a href="https://www.linkedin.com/in/ericfoster9"
-                    >www.linkedin.com</a
-                  >
-                </p>
-                <br />
-              </div>
+            <div class="text-center">
+              <h3 class="h3"><i class="bi bi-mailbox2"></i> Email:</h3>
+              <p>efoster4@schools.nyc.gov</p>
+              <br />
+              <h3 class="h3"><i class="bi bi-phone-fill"></i> Phone Number:</h3>
+              <p>1-800-948-8488</p>
+              <br />
+              <h3 class="h3"><i class="bi bi-map-fill"></i> Address:</h3>
+              <p>Av. Gustave Eiffel, 75007 Paris, France</p>
+              <br />
+              <h3 class="h3"><i class="bi bi-mailbox2"></i> LinkedIn:</h3>
+              <p>
+                <a href="https://www.linkedin.com/in/ericfoster9"
+                  >www.linkedin.com</a
+                >
+              </p>
             </div>
           </div>
         </div>
-        <div class="container">
-          <!-- Footer with navbar links, and social media links. -->
-          <footer class="py-3 my-4">
-            <ul
-              class="nav justify-content-center mt-auto border-bottom pb-3 mb-3"
-            >
-              <li class="nav-item">
-                <a class="nav-link px-2 text-body-secondary" href="index.html"
-                  ><i class="bi bi-house-door-fill"></i> Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-2 text-body-secondary" href="contact.html"
-                  ><i class="bi bi-mailbox2"></i> Contact</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-2 text-body-secondary" href="about.html"
-                  ><i class="bi bi-info-circle-fill"></i> About</a
-                >
-              </li>
-            </ul>
-            <p class="float-start text-body-secondary">
-              © 2025 Not Mr. Foster, <br />Av. Gustave Eiffel, 75007 Paris,
-              France
-            </p>
-            <p class="float-end text-body-secondary">
-              <a class="text-warning" href="tel:18009488488">1-800-948-8488</a
-              ><br /><a
-                class="text-warning"
-                href="https://www.linkedin.com/in/ericfoster9"
-                ><i class="bi bi-linkedin"></i> LinkedIn</a
-              >
-            </p>
-          </footer>
-        </div>
       </div>
+    </div>
+    <div class="container">
+      <!-- Footer with navbar links, and social media links. -->
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center mt-auto border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a class="nav-link px-2 text-body-secondary" href="index.html"
+              ><i class="bi bi-house-door-fill"></i> Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-body-secondary" href="contact.html"
+              ><i class="bi bi-mailbox2"></i> Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-body-secondary" href="about.html"
+              ><i class="bi bi-info-circle-fill"></i> About</a
+            >
+          </li>
+        </ul>
+        <p class="float-start text-body-secondary">
+          © 2025 Not Mr. Foster, <br />Av. Gustave Eiffel, 75007 Paris, France
+        </p>
+        <p class="float-end text-body-secondary">
+          <a class="text-warning" href="tel:18009488488">1-800-948-8488</a
+          ><br /><a
+            class="text-warning"
+            href="https://www.linkedin.com/in/ericfoster9"
+            ><i class="bi bi-linkedin"></i> LinkedIn</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
